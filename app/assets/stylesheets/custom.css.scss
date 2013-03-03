@@ -1,0 +1,50 @@
+@import "bootstrap";
+
+$fridgeblue: #2480de;
+
+h1 {
+  color: $fridgeblue;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.center {
+  text-align:center;
+}
+
+.top_banner {
+  background: url('/assets/gray_jean.png') repeat;
+  height: 300px;
+}
+
+.navbar .brand {
+  padding: 6px 20px 0px;
+}
+
+.nav li a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav li {
+  padding-top: 3px;
+}
+
+.nav > li.active {
+  border-top: 3px solid #fff;
+  padding-top: 0px;
+}
+
+#lower_banner {
+  padding-top: 30px;
+}
+
+#top_slogan {
+  margin-top: 50px;
+}
+
+#home_demo_button {
+  margin-top:25px;
+}
